@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(page_title="AI Traffic Simulator", layout="wide", page_icon="🚦")
 
 st.title("🚦 Hệ thống AI phân tích giao thông")
-st.markdown("**Đội thi:** Think Twice, Train Once")
+st.markdown("**Đội thi:** Next Level")
 st.write("Bản mô phỏng (Prototype) phân tích lưu lượng phương tiện qua camera và đề xuất chu kỳ đèn tín hiệu thông minh.")
 
 st.divider()
@@ -61,4 +61,5 @@ if uploaded_file is not None:
             except Exception as e:
                 st.error(f"Có lỗi xảy ra trong quá trình kết nối AI: {e}")
 else:
+
     st.info("👈 Vui lòng tải lên một bức ảnh giao thông để bắt đầu trải nghiệm.")
